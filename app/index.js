@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
 import { Login } from "./account/login";
+import AdminIndex from "./admin/(tabs)";
 
 export default function Page() {
   return (
@@ -9,7 +10,7 @@ export default function Page() {
         <Text style={styles.subtitle}>This is the first page of your app.</Text>
       </View>
        */}
-       <Login />
+       <AdminIndex></AdminIndex>
     </View>
   );
 }
